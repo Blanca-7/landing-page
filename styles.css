@@ -4,6 +4,7 @@
   background-color: #1f2937;
 }
 
+/* Header */
 .header-logo {
   color: #f9faf8;
   size: 24px;
@@ -19,8 +20,36 @@
   text-decoration: none;
 }
 
+/* introduction section */
+
 .introduction-title {
   color: #f9faf8;
   font-size: 48px;
   font-weight: 900;
+}
+
+/* information section */
+
+.information-title {
+  color: #1f2937;
+  font-size: 36px;
+}
+
+/* Quote section */
+
+.quote {
+  background-color: #e5e7eb;
+}
+
+.quote-text {
+  color: #1f2937;
+  font-size: 36px;
+  font-style: italic;
+}
+
+/* Button & call to action background color */
+
+.sign-up,
+.banner {
+  background-color: #3882f6;
 }
