@@ -41,8 +41,10 @@ body {
 }
 
 .intro-img {
-  width: 450px;
-  height: auto;
+  height: 300px;
+  width: auto;
+  display: flex;
+  align-self: center;
 }
 
 /* information section */
