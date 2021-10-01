@@ -21,22 +21,22 @@ body {
   gap: 20px;
 }
 
-.links,
-.intro-text {
-  color: #e5e7eb;
-  font-size: 18px;
-}
-
-.links {
-  text-decoration: none;
-}
-
 /* introduction section */
 
 .introduction-title {
   color: #f9faf8;
   font-size: 48px;
   font-weight: 900;
+}
+
+.left-introduction {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+}
+
+.intro-img {
+  display: flex;
 }
 
 /* information section */
@@ -70,4 +70,14 @@ body {
 .introduction,
 .footer {
   background-color: #1f2937;
+}
+
+.links,
+.intro-text {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.links {
+  text-decoration: none;
 }
