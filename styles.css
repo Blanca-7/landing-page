@@ -1,13 +1,24 @@
-.header,
-.introduction,
-.footer {
-  background-color: #1f2937;
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
 }
 
 /* Header */
 .header-logo {
   color: #f9faf8;
   size: 24px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.right-side {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 .links,
@@ -52,4 +63,11 @@
 .sign-up,
 .banner {
   background-color: #3882f6;
+}
+
+/* misc */
+.header,
+.introduction,
+.footer {
+  background-color: #1f2937;
 }
