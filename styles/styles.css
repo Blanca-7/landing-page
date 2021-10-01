@@ -33,6 +33,7 @@ body {
 .introduction {
   display: flex;
   justify-content: space-evenly;
+  height: 500px;
 }
 
 .left-introduction {
@@ -50,12 +51,6 @@ body {
   width: auto;
   display: flex;
   align-self: center;
-}
-
-.signUp-intro {
-  display: flex;
-  flex-direction: column;
-  align-self: flex-start;
 }
 
 /* information section */
@@ -99,4 +94,13 @@ body {
 
 .links {
   text-decoration: none;
+}
+
+button {
+  border-radius: 5px;
+  border: none;
+  color: #ffffff;
+  padding: 5px 30px;
+  font-weight: bolder;
+  font-size: 18px;
 }
