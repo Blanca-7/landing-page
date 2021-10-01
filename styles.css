@@ -12,5 +12,15 @@
 .links,
 .intro-text {
   color: #e5e7eb;
-  size: 18px;
+  font-size: 18px;
+}
+
+.links {
+  text-decoration: none;
+}
+
+.introduction-title {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 900;
 }
