@@ -1,0 +1,10 @@
+.header,
+.introduction,
+.footer {
+  background-color: #1f2937;
+}
+
+.header-logo {
+  color: #f9faf8;
+  size: 24px;
+}
