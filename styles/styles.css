@@ -27,24 +27,36 @@ body {
   color: #f9faf8;
   font-size: 48px;
   font-weight: 900;
+  margin-bottom: 0;
 }
 
 .introduction {
   display: flex;
   justify-content: space-evenly;
+  height: 750px;
 }
 
 .left-introduction {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   width: 450px;
 }
+
+/* .intro-text {
+} */
 
 .intro-img {
   height: 300px;
   width: auto;
   display: flex;
   align-self: center;
+}
+
+.signUp-intro {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
 }
 
 /* information section */
