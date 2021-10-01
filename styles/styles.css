@@ -1,18 +1,43 @@
+/* table of contents
+
+1. global styles
+
+2. main content
+
+    2.1 header
+    2.2 introduction 
+    2.3 information
+    2.4 quote ( < need help here)
+    2.5 call to action
+
+3. footer
+
+4. misc
+
+*/
+
+/* ================
+   1. global styles
+   ================*/
+
 body {
   display: flex;
   flex-direction: column;
   margin: 0;
 }
 
-/* Header */
-.header-logo {
-  color: #f9faf8;
-  size: 24px;
-}
+/* ================
+   2.1 header
+   ================*/
 
 .header {
   display: flex;
   justify-content: space-between;
+}
+
+.header-logo {
+  color: #f9faf8;
+  size: 24px;
 }
 
 .right-side {
@@ -21,7 +46,9 @@ body {
   gap: 20px;
 }
 
-/* introduction section */
+/* ================
+   2.2 introduction
+   ================*/
 
 .introduction-title {
   color: #f9faf8;
@@ -43,9 +70,6 @@ body {
   width: 450px;
 }
 
-/* .intro-text {
-} */
-
 .intro-img {
   height: 300px;
   width: auto;
@@ -53,7 +77,9 @@ body {
   align-self: center;
 }
 
-/* information section */
+/* ================
+   2.3 information
+   ================*/
 
 .information {
   display: flex;
@@ -87,7 +113,9 @@ body {
   text-align: center;
 }
 
-/* Quote section */
+/* ================
+   2.4 quote
+   ================*/
 
 .quote {
   background-color: #e5e7eb;
@@ -99,33 +127,43 @@ body {
   color: #1f2937;
   font-size: 36px;
   font-style: italic;
-  width: 900px;
   /* padding-bottom: 10px;
   margin-bottom: -35px; */
 }
 
 .quote-block {
-  display: flex;
-  flex-direction: column;
+  width: 900px;
 }
 
-.quote h5 {
-  text-align: right;
-  padding-top: 0;
+.special {
+  text-align: end;
 }
 
-/* Button & call to action background color */
+/* ==================
+   2.5 call to action
+   ==================*/
 
-.sign-up,
-.banner {
-  background-color: #3882f6;
-}
+/*empty*/
 
-/* misc */
+/* ================
+   3. footer
+   ================*/
+
+/*empty*/
+
+/* ================
+   4. misc
+   ================*/
+
 .header,
 .introduction,
 .footer {
   background-color: #1f2937;
+}
+
+.sign-up,
+.banner {
+  background-color: #3882f6;
 }
 
 .links,
@@ -145,4 +183,13 @@ button {
   padding: 5px 30px;
   font-weight: bolder;
   font-size: 18px;
+}
+
+.sign-up-action {
+  border: 2px solid white;
+  color: #ffffff;
+  padding: 5px 30px;
+  font-weight: bolder;
+  font-size: 18px;
+  background-color: #3882f6;
 }
