@@ -55,9 +55,30 @@ body {
 
 /* information section */
 
+.information {
+  display: flex;
+  flex-direction: column;
+}
+
 .information-title {
   color: #1f2937;
   font-size: 36px;
+  display: flex;
+  justify-content: center;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-around;
+  flex-wrap: wrap; */
+}
+
+.card img {
+  height: 170px;
+  width: auto;
+  display: flex;
+  align-self: center;
 }
 
 /* Quote section */
