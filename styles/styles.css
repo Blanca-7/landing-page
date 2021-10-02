@@ -35,8 +35,10 @@
    ================*/
 
 body {
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 /* ================
@@ -97,6 +99,9 @@ body {
 .information {
   display: flex;
   flex-direction: column;
+  align-self: center;
+  margin: 50px 0;
+  gap: 50px;
 }
 
 .information-title {
@@ -120,7 +125,6 @@ body {
 
 .card img {
   width: 300px;
-  display: block;
   margin: auto 0 auto 0;
 }
 
@@ -149,7 +153,6 @@ body {
 .special {
   text-align: end;
   margin-top: 0;
-
   font-size: 20px;
 }
 
@@ -159,6 +162,7 @@ body {
 
 .actionCall-container {
   display: flex;
+  justify-content: center;
   align-self: center;
   padding: 70px 0px;
 }
@@ -181,7 +185,17 @@ body {
    3. footer
    ================*/
 
-/*empty*/
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+.footer-text {
+  font-size: 15px;
+  color: white;
+}
 
 /* ================
    4. misc
