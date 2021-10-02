@@ -1,6 +1,10 @@
 /* table of contents
 
-1. global styles
+/* 
+
+0. Global
+
+1. Body
 
 2. main content
 
@@ -17,13 +21,22 @@
 */
 
 /* ================
-   1. global styles
+   0. global styles
+   ================*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ================
+   1. Body
    ================*/
 
 body {
   display: flex;
   flex-direction: column;
-  margin: 0;
 }
 
 /* ================
@@ -96,21 +109,19 @@ body {
 .cards {
   display: flex;
   justify-content: center;
-  align-items: baseline;
   gap: 45px;
 }
 
 .card {
   width: 300px;
+  display: flex;
+  flex-direction: column;
 }
 
 .card img {
-  height: auto;
   width: 300px;
-}
-
-.card-description {
-  text-align: center;
+  display: block;
+  margin: auto 0 auto 0;
 }
 
 /* ================
@@ -121,6 +132,7 @@ body {
   background-color: #e5e7eb;
   display: flex;
   justify-content: center;
+  padding: 55px 0;
 }
 
 .quote-text {
@@ -128,7 +140,6 @@ body {
   font-size: 36px;
   font-style: italic;
   margin-bottom: 0;
-  padding-top: 25px;
 }
 
 .quote-block {
@@ -138,7 +149,7 @@ body {
 .special {
   text-align: end;
   margin-top: 0;
-  padding-bottom: 35px;
+
   font-size: 20px;
 }
 
@@ -146,7 +157,25 @@ body {
    2.5 call to action
    ==================*/
 
-/*empty*/
+.actionCall-container {
+  display: flex;
+  align-self: center;
+  padding: 70px 0px;
+}
+
+.actionCall-title {
+  font-weight: bolder;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-around;
+  align-self: flex-end;
+  width: 900px;
+  padding: 35px 50px;
+  border-radius: 8px;
+  color: white;
+}
 
 /* ================
    3. footer
